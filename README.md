@@ -30,6 +30,8 @@
  
 4-Configurar o serviço no Program.cs
 builder.Services.AddDbContext<_DbContext>();
+
+4.1- na guia ferramentas > Gerenciador do NuGet > Abrir o console.
  
 5-Criar a primeira migration
 add-migration CriarBancoDeDados
